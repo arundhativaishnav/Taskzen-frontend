@@ -1,0 +1,7 @@
+{
+  "name": "TaskZenApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

@@ -1,0 +1,155 @@
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  text-align: center;
+  min-height: 50vh;
+}
+
+.empty-icon {
+  font-size: 64px;
+  color: var(--ion-color-medium);
+  margin-bottom: 20px;
+}
+
+.empty-state h2 {
+  color: var(--ion-color-dark);
+  margin-bottom: 8px;
+}
+
+.empty-state p {
+  color: var(--ion-color-medium);
+  margin-bottom: 24px;
+  max-width: 300px;
+}
+
+.tasks-container {
+  padding: 16px;
+}
+
+.quadrant-card {
+  margin-bottom: 16px;
+}
+
+.quadrant-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quadrant-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.quadrant-info ion-icon {
+  font-size: 24px;
+}
+
+.quadrant-info div {
+  flex: 1;
+}
+
+.quadrant-info ion-card-title {
+  margin-bottom: 4px;
+  font-size: 1.1rem;
+}
+
+.quadrant-info p {
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+.task-count {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 4px 8px;
+  min-width: 24px;
+  text-align: center;
+}
+
+.task-count span {
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.quadrant-danger .quadrant-header {
+  color: var(--ion-color-danger);
+}
+
+.quadrant-warning .quadrant-header {
+  color: var(--ion-color-warning);
+}
+
+.quadrant-primary .quadrant-header {
+  color: var(--ion-color-primary);
+}
+
+.quadrant-medium .quadrant-header {
+  color: var(--ion-color-medium);
+}
+
+.tasks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.no-tasks {
+  text-align: center;
+  font-style: italic;
+  padding: 16px 0;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .tasks-container {
+    padding: 12px;
+  }
+  
+  .quadrant-card {
+    margin-bottom: 12px;
+  }
+  
+  .quadrant-info {
+    gap: 8px;
+  }
+  
+  .quadrant-info ion-icon {
+    font-size: 20px;
+  }
+
+}
+.task-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.logout-button{
+  margin-right: 30px;
+
+}
+.completed-task {
+  text-decoration: line-through;
+  color: gray;
+  font-style: italic;
+}
+
+.task-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
