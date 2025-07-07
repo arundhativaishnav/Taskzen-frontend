@@ -23,7 +23,7 @@
 
 You can download and install the latest APK here:
 
-👉 **[Download TaskZen APK](sha256:448db6ec1f157937c97f8edca987f4e5f6513064ea6bb527ef20584f92f60539)**
+👉 **[Download TaskZen APK](https://github.com/arundhativaishnav/Taskzen/releases/download/v1.0.0/app-debug.apk)**
 
 > _Make sure to allow installation from unknown sources in your device settings._
 
